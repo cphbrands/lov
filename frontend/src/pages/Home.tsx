@@ -24,26 +24,26 @@ const Home = () => {
           <div
             className="absolute inset-0 bg-cover bg-center transition-all duration-700 group-hover:scale-110"
             style={{
-              backgroundImage: 'url(https://images.unsplash.com/photo-1602521879046-b994fcd56190?w=1200&q=85)',
+              backgroundImage: 'url(https://images.pexels.com/photos/713148/pexels-photo-713148.jpeg?w=1200&auto=compress&cs=tinysrgb)',
             }}
           >
-            <div className="absolute inset-0 bg-gradient-to-br from-[#0F2922]/80 via-[#0F2922]/60 to-transparent" />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-black/30" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
           </div>
           
           <div className="relative h-full flex flex-col items-center justify-center text-white p-8">
-            <div className="flex items-center gap-2 mb-4 text-sm tracking-[0.2em] uppercase text-[#D4AF37] font-light">
-              <Sparkles className="w-4 h-4" />
-              <span>{t('home.nordic.quality')}</span>
+            <div className="flex items-center gap-2 mb-4 text-sm tracking-[0.2em] uppercase text-[#D4AF37] font-light drop-shadow-lg">
+              <Sparkles className="w-4 h-4 drop-shadow-lg" />
+              <span className="drop-shadow-lg">{t('home.nordic.quality')}</span>
             </div>
-            <h2 className="font-['Playfair_Display'] text-5xl md:text-7xl font-bold mb-4 text-center tracking-tight leading-tight">
+            <h2 className="font-['Playfair_Display'] text-5xl md:text-7xl font-bold mb-4 text-center tracking-tight leading-tight drop-shadow-2xl" style={{ textShadow: '0 4px 20px rgba(0,0,0,0.8), 0 2px 8px rgba(0,0,0,0.6)' }}>
               {t('category.julepynt.title')}
             </h2>
-            <div className="w-16 h-[2px] bg-gradient-to-r from-transparent via-[#D4AF37] to-transparent mb-6" />
-            <p className="text-xl md:text-2xl mb-8 text-center opacity-95 font-light max-w-md">
+            <div className="w-16 h-[2px] bg-gradient-to-r from-transparent via-[#D4AF37] to-transparent mb-6 drop-shadow-lg" />
+            <p className="text-xl md:text-2xl mb-8 text-center opacity-95 font-light max-w-md drop-shadow-xl" style={{ textShadow: '0 2px 12px rgba(0,0,0,0.7)' }}>
               {t('home.hero.jul')}
             </p>
-            <div className="flex items-center gap-2 text-base font-medium group-hover:gap-4 transition-all duration-300 border border-white/30 px-6 py-3 rounded-sm backdrop-blur-sm hover:bg-white/10">
+            <div className="flex items-center gap-2 text-base font-medium group-hover:gap-4 transition-all duration-300 border border-white/40 px-6 py-3 rounded-sm backdrop-blur-md hover:bg-white/15 bg-black/20 drop-shadow-xl">
               <span className="tracking-wide">{t('home.hero.explore')}</span>
               <ChevronRight className="w-5 h-5" />
             </div>
@@ -61,23 +61,23 @@ const Home = () => {
               backgroundImage: 'url(https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=1200&q=80)',
             }}
           >
-            <div className="absolute inset-0 bg-gradient-to-bl from-[#0F2922]/80 via-[#0F2922]/60 to-transparent" />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-bl from-black/60 via-black/40 to-black/20" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
           </div>
           
           <div className="relative h-full flex flex-col items-center justify-center text-white p-8">
-            <div className="flex items-center gap-2 mb-4 text-sm tracking-[0.2em] uppercase text-[#D4AF37] font-light">
-              <Sparkles className="w-4 h-4" />
-              <span>{t('home.nordic.quality')}</span>
+            <div className="flex items-center gap-2 mb-4 text-sm tracking-[0.2em] uppercase text-[#D4AF37] font-light drop-shadow-lg">
+              <Sparkles className="w-4 h-4 drop-shadow-lg" />
+              <span className="drop-shadow-lg">{t('home.nordic.quality')}</span>
             </div>
-            <h2 className="font-['Playfair_Display'] text-5xl md:text-7xl font-bold mb-4 text-center tracking-tight leading-tight">
+            <h2 className="font-['Playfair_Display'] text-5xl md:text-7xl font-bold mb-4 text-center tracking-tight leading-tight drop-shadow-2xl" style={{ textShadow: '0 4px 20px rgba(0,0,0,0.8), 0 2px 8px rgba(0,0,0,0.6)' }}>
               {t('category.gaver.title')}
             </h2>
-            <div className="w-16 h-[2px] bg-gradient-to-r from-transparent via-[#D4AF37] to-transparent mb-6" />
-            <p className="text-xl md:text-2xl mb-8 text-center opacity-95 font-light max-w-md">
+            <div className="w-16 h-[2px] bg-gradient-to-r from-transparent via-[#D4AF37] to-transparent mb-6 drop-shadow-lg" />
+            <p className="text-xl md:text-2xl mb-8 text-center opacity-95 font-light max-w-md drop-shadow-xl" style={{ textShadow: '0 2px 12px rgba(0,0,0,0.7)' }}>
               {t('home.hero.gaver')}
             </p>
-            <div className="flex items-center gap-2 text-base font-medium group-hover:gap-4 transition-all duration-300 border border-white/30 px-6 py-3 rounded-sm backdrop-blur-sm hover:bg-white/10">
+            <div className="flex items-center gap-2 text-base font-medium group-hover:gap-4 transition-all duration-300 border border-white/40 px-6 py-3 rounded-sm backdrop-blur-md hover:bg-white/15 bg-black/20 drop-shadow-xl">
               <span className="tracking-wide">{t('home.hero.find')}</span>
               <ChevronRight className="w-5 h-5" />
             </div>
