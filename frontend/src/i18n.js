@@ -700,7 +700,7 @@ const resources = {
       'footer.payment.desc': '100% geschützte Transaktionen',
       'footer.return.extended': 'Verlängerte Rückgabe',
       'footer.return.desc': 'Gilt nur für Weihnachtsgeschenke',
-      'footer.copyright': '© 2025 Bahne. Alle Rechte vorbehalten.',
+      'footer.copyright': '© 2025 Christmas House. Alle Rechte vorbehalten.',
       
       // Breadcrumbs
       'breadcrumb.home': 'Startseite',
