@@ -53,7 +53,7 @@ const ReturPage = () => {
 
             {/* Return Steps */}
             <div className="bg-white p-8 rounded-sm border border-[#0F2922]/10 shadow-md mb-16">
-              <h2 className="font-['Playfair_Display'] text-3xl font-bold text-[#0F2922] mb-8">
+              <h2 className="font-['Playfair_Display'] text-3xl font-bold text-[#0F2922] mb-8 text-center">
                 Sådan Returnerer Du
               </h2>
               <div className="space-y-6">
@@ -61,9 +61,9 @@ const ReturPage = () => {
                   <div className="w-10 h-10 rounded-full bg-[#0F2922] text-white flex items-center justify-center flex-shrink-0 font-bold">
                     1
                   </div>
-                  <div>
-                    <h3 className="font-semibold text-[#0F2922] mb-2">Kontakt Os</h3>
-                    <p className="text-[#0F2922]/70">
+                  <div className="flex-1">
+                    <h3 className="font-semibold text-[#0F2922] mb-2 text-center">Kontakt Os</h3>
+                    <p className="text-[#0F2922]/70 text-center">
                       Send en email til vores kundeservice med dit ordrenummer og begrundelse for returnering.
                     </p>
                   </div>
@@ -72,9 +72,9 @@ const ReturPage = () => {
                   <div className="w-10 h-10 rounded-full bg-[#0F2922] text-white flex items-center justify-center flex-shrink-0 font-bold">
                     2
                   </div>
-                  <div>
-                    <h3 className="font-semibold text-[#0F2922] mb-2">Modtag Returlabel</h3>
-                    <p className="text-[#0F2922]/70">
+                  <div className="flex-1">
+                    <h3 className="font-semibold text-[#0F2922] mb-2 text-center">Modtag Returlabel</h3>
+                    <p className="text-[#0F2922]/70 text-center">
                       Du modtager et gratis returlabel via email inden for 24 timer.
                     </p>
                   </div>
@@ -83,9 +83,9 @@ const ReturPage = () => {
                   <div className="w-10 h-10 rounded-full bg-[#0F2922] text-white flex items-center justify-center flex-shrink-0 font-bold">
                     3
                   </div>
-                  <div>
-                    <h3 className="font-semibold text-[#0F2922] mb-2">Pak og Send</h3>
-                    <p className="text-[#0F2922]/70">
+                  <div className="flex-1">
+                    <h3 className="font-semibold text-[#0F2922] mb-2 text-center">Pak og Send</h3>
+                    <p className="text-[#0F2922]/70 text-center">
                       Pak varen sikkert i original emballage og print returlabelen. Aflever pakken på nærmeste pakkeshop.
                     </p>
                   </div>
@@ -94,9 +94,9 @@ const ReturPage = () => {
                   <div className="w-10 h-10 rounded-full bg-[#0F2922] text-white flex items-center justify-center flex-shrink-0 font-bold">
                     4
                   </div>
-                  <div>
-                    <h3 className="font-semibold text-[#0F2922] mb-2">Modtag Refundering</h3>
-                    <p className="text-[#0F2922]/70">
+                  <div className="flex-1">
+                    <h3 className="font-semibold text-[#0F2922] mb-2 text-center">Modtag Refundering</h3>
+                    <p className="text-[#0F2922]/70 text-center">
                       Når vi har modtaget og godkendt din retur, refunderer vi beløbet inden for 5-7 hverdage.
                     </p>
                   </div>
