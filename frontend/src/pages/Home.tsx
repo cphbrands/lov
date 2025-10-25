@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ChevronRight, Award, Globe, Leaf } from 'lucide-react';
+import { ChevronRight, Award, Package, Shield, Gift, Sparkles } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import SEO from '../components/SEO';
 
@@ -10,36 +10,41 @@ const Home = () => {
   return (
     <>
       <SEO />
-      <div className="min-h-screen">
+      <div className="min-h-screen bg-gradient-to-b from-[#faf8f5] to-white">
       {/* Split Hero Section */}
-      <div className="h-[calc(100vh-10rem)] flex flex-col md:flex-row">
+      <div className="h-[calc(100vh-10rem)] flex flex-col md:flex-row relative">
+        {/* Decorative Gold Line */}
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-transparent via-[#D4AF37] to-transparent" />
+        
         {/* Left Side - Jule Pynt */}
         <Link
           to="/kategori/julepynt"
           className="relative flex-1 group overflow-hidden"
         >
           <div
-            className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
+            className="absolute inset-0 bg-cover bg-center transition-all duration-700 group-hover:scale-110"
             style={{
-              backgroundImage: 'url(https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=1200)',
+              backgroundImage: 'url(https://images.unsplash.com/photo-1573829831297-2038252d19e3?w=1200&q=80)',
             }}
           >
-            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-br from-[#0F2922]/80 via-[#0F2922]/60 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
           </div>
           
           <div className="relative h-full flex flex-col items-center justify-center text-white p-8">
-            <div className="flex items-center gap-2 mb-3 text-sm opacity-90">
-              <Award className="w-4 h-4" />
+            <div className="flex items-center gap-2 mb-4 text-sm tracking-[0.2em] uppercase text-[#D4AF37] font-light">
+              <Sparkles className="w-4 h-4" />
               <span>{t('home.nordic.quality')}</span>
             </div>
-            <h2 className="text-5xl md:text-7xl font-bold mb-4 text-center tracking-wide">
+            <h2 className="font-['Playfair_Display'] text-5xl md:text-7xl font-bold mb-4 text-center tracking-tight leading-tight">
               {t('category.julepynt.title')}
             </h2>
-            <p className="text-xl md:text-2xl mb-8 text-center opacity-90">
+            <div className="w-16 h-[2px] bg-gradient-to-r from-transparent via-[#D4AF37] to-transparent mb-6" />
+            <p className="text-xl md:text-2xl mb-8 text-center opacity-95 font-light max-w-md">
               {t('home.hero.jul')}
             </p>
-            <div className="flex items-center gap-2 text-lg font-medium group-hover:gap-4 transition-all">
-              <span>{t('home.hero.explore')}</span>
+            <div className="flex items-center gap-2 text-base font-medium group-hover:gap-4 transition-all duration-300 border border-white/30 px-6 py-3 rounded-sm backdrop-blur-sm hover:bg-white/10">
+              <span className="tracking-wide">{t('home.hero.explore')}</span>
               <ChevronRight className="w-5 h-5" />
             </div>
           </div>
@@ -51,27 +56,29 @@ const Home = () => {
           className="relative flex-1 group overflow-hidden"
         >
           <div
-            className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
+            className="absolute inset-0 bg-cover bg-center transition-all duration-700 group-hover:scale-110"
             style={{
-              backgroundImage: 'url(https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=1200)',
+              backgroundImage: 'url(https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=1200&q=80)',
             }}
           >
-            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-bl from-[#0F2922]/80 via-[#0F2922]/60 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
           </div>
           
           <div className="relative h-full flex flex-col items-center justify-center text-white p-8">
-            <div className="flex items-center gap-2 mb-3 text-sm opacity-90">
-              <Award className="w-4 h-4" />
+            <div className="flex items-center gap-2 mb-4 text-sm tracking-[0.2em] uppercase text-[#D4AF37] font-light">
+              <Sparkles className="w-4 h-4" />
               <span>{t('home.nordic.quality')}</span>
             </div>
-            <h2 className="text-5xl md:text-7xl font-bold mb-4 text-center tracking-wide">
+            <h2 className="font-['Playfair_Display'] text-5xl md:text-7xl font-bold mb-4 text-center tracking-tight leading-tight">
               {t('category.gaver.title')}
             </h2>
-            <p className="text-xl md:text-2xl mb-8 text-center opacity-90">
+            <div className="w-16 h-[2px] bg-gradient-to-r from-transparent via-[#D4AF37] to-transparent mb-6" />
+            <p className="text-xl md:text-2xl mb-8 text-center opacity-95 font-light max-w-md">
               {t('home.hero.gaver')}
             </p>
-            <div className="flex items-center gap-2 text-lg font-medium group-hover:gap-4 transition-all">
-              <span>{t('home.hero.find')}</span>
+            <div className="flex items-center gap-2 text-base font-medium group-hover:gap-4 transition-all duration-300 border border-white/30 px-6 py-3 rounded-sm backdrop-blur-sm hover:bg-white/10">
+              <span className="tracking-wide">{t('home.hero.find')}</span>
               <ChevronRight className="w-5 h-5" />
             </div>
           </div>
