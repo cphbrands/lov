@@ -307,7 +307,7 @@ const CategoryPageNew = () => {
                   <button
                     onClick={(e) => handleAddToCart(e, product)}
                     disabled={!product.inStock}
-                    className="bg-zinc-900 text-white p-2 rounded-md hover:bg-zinc-800 transition-colors disabled:bg-zinc-300 disabled:cursor-not-allowed"
+                    className="bg-gradient-to-r from-[#0F2922] to-[#1a4039] text-white p-2.5 rounded-sm hover:from-[#1a4039] hover:to-[#0F2922] transition-all duration-300 disabled:from-[#0F2922]/30 disabled:to-[#1a4039]/30 disabled:cursor-not-allowed"
                     aria-label="Tilføj til kurv"
                   >
                     <ShoppingCart className="w-4 h-4" />
