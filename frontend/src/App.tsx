@@ -22,6 +22,7 @@ import ProductPage from "./pages/ProductPage";
 import CartPage from "./pages/CartPage";
 import WishlistPage from "./pages/WishlistPage";
 import TrackOrderPage from "./pages/TrackOrderPage";
+import SearchPage from "./pages/SearchPage";
 import FaqPage from "./pages/FaqPage";
 import LeveringPage from "./pages/LeveringPage";
 import ReturPage from "./pages/ReturPage";
