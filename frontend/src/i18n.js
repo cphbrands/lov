@@ -806,7 +806,7 @@ const resources = {
       'cart.shippingFree': 'Gratuit',
       'cart.total': 'Total',
       'cart.christmasGift': 'Ceci est un cadeau de Noël',
-      'cart.christmasGift.info': 'Politique de retour prolongée applicable jusqu\'en janvier 2026',
+      'cart.christmasGift.info': 'S\'applique uniquement aux cadeaux de Noël',
       
       'wishlist.title': 'Ma liste de souhaits',
       'wishlist.empty': 'Votre liste de souhaits est vide',
