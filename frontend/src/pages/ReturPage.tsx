@@ -37,11 +37,16 @@ const ReturPage = () => {
                 </div>
                 <div>
                   <h2 className="font-['Playfair_Display'] text-2xl font-bold text-[#0F2922] mb-3">
-                    Udvidet Returret for Julegaver
+                    14 Dages Returret
                   </h2>
-                  <p className="text-[#0F2922]/80 leading-relaxed">
-                    Vi tilbyder udvidet returret på alle julegaver. Du kan returnere uåbnede varer inden for <strong>30 dage</strong> for fuld refundering.
+                  <p className="text-[#0F2922]/80 leading-relaxed mb-3">
+                    Vi tilbyder <strong>14 dages returret</strong> på alle ordrer. Du kan returnere uåbnede varer inden for 14 dage for fuld refundering.
                   </p>
+                  <div className="bg-white/50 p-4 rounded-sm border border-[#D4AF37]/20 mt-4">
+                    <p className="text-sm text-[#0F2922]/80">
+                      <strong className="text-[#D4AF37]">✨ Udvidet retur for julegaver:</strong> Gælder kun for julegaver købt i julesæsonen
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
