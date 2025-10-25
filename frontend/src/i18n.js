@@ -550,7 +550,7 @@ const resources = {
       'footer.payment': 'Sikker betaling',
       'footer.payment.desc': '100% beskyttede transaksjoner',
       'footer.return.extended': 'Utvidet retur',
-      'footer.return.desc': 'Julegaver til januar 2026',
+      'footer.return.desc': 'Gjelder kun for julegaver',
       'footer.about': 'Om Bahne',
       'footer.about.desc': 'Vi er ikke en kjede. Vi er en familie av butikker med plass til kundeopplevelser, entusiasme og et utvalg skapt ut fra det vi liker.',
       'footer.help': 'Hjelp',
