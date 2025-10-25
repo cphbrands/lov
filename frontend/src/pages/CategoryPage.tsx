@@ -255,7 +255,7 @@ const CategoryPageNew = () => {
           {displayedProducts.map(product => (
             <div key={product.id} className="group relative">
               <Link to={`/produkt/${product.id}`} className="block">
-                <div className="aspect-square overflow-hidden rounded-lg mb-3 bg-zinc-100 relative">
+                <div className="aspect-square overflow-hidden rounded-sm mb-3 bg-[#faf8f5] relative shadow-md">
                   <img
                     src={product.image}
                     alt={product.name}
