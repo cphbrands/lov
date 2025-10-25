@@ -635,7 +635,7 @@ const resources = {
       'product.shipping.info': 'Kostenloser Versand 2-5 Werktage',
       'product.shipping.delivery': 'Lieferung an Paketshop oder Hausadresse',
       'product.return': 'Rückgabe',
-      'product.return.info': 'Verlängerte Rückgabe für Weihnachtsgeschenke bis Januar 2026.',
+      'product.return.info': 'Gilt nur für Weihnachtsgeschenke',
       'product.related': 'Ähnliche Produkte',
       'product.recentlyViewed': 'Kürzlich angesehene Produkte',
       
