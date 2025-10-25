@@ -75,7 +75,7 @@ const resources = {
       'wishlist.empty.desc': 'Du har ingen produkter i din ønskeliste. Tilføj dine favoritter!',
       
       // Footer
-      'footer.about': 'Om Bahne',
+      'footer.about': 'Om Christmas House',
       'footer.about.desc': 'Vi er ikke en kæde. Vi er en familie af butikker med plads til kundeoplevelser, begejstring og et udvalg skabt ud fra det, vi selv kan lide.',
       'footer.help': 'Hjælp',
       'footer.shop': 'Shop',
@@ -416,7 +416,7 @@ const resources = {
       'footer.payment.desc': '100% skyddade transaktioner',
       'footer.return.extended': 'Förlängd retur',
       'footer.return.desc': 'Gäller endast för julklappar',
-      'footer.about': 'Om Bahne',
+      'footer.about': 'Om Christmas House',
       'footer.about.desc': 'Vi är inte en kedja. Vi är en familj av butiker med plats för kundupplevelser, entusiasm och ett urval skapat utifrån det vi gillar.',
       'footer.help': 'Hjälp',
       'footer.shop': 'Handla',
@@ -551,7 +551,7 @@ const resources = {
       'footer.payment.desc': '100% beskyttede transaksjoner',
       'footer.return.extended': 'Utvidet retur',
       'footer.return.desc': 'Gjelder kun for julegaver',
-      'footer.about': 'Om Bahne',
+      'footer.about': 'Om Christmas House',
       'footer.about.desc': 'Vi er ikke en kjede. Vi er en familie av butikker med plass til kundeopplevelser, entusiasme og et utvalg skapt ut fra det vi liker.',
       'footer.help': 'Hjelp',
       'footer.shop': 'Handle',
