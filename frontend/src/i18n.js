@@ -250,7 +250,7 @@ const resources = {
       'footer.payment': 'Secure payment',
       'footer.payment.desc': '100% protected transactions',
       'footer.return.extended': 'Extended returns',
-      'footer.return.desc': 'Christmas gifts until January 2026',
+      'footer.return.desc': 'Applies only to Christmas gifts',
       'footer.copyright': '© 2025 Bahne. All rights reserved.',
       
       'common.new': 'New',
