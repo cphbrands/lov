@@ -24,7 +24,7 @@ const Home = () => {
           <div
             className="absolute inset-0 bg-cover bg-center transition-all duration-700 group-hover:scale-110"
             style={{
-              backgroundImage: 'url(https://images.unsplash.com/photo-1573829831297-2038252d19e3?w=1200&q=80)',
+              backgroundImage: 'url(https://images.unsplash.com/photo-1602521879046-b994fcd56190?w=1200&q=85)',
             }}
           >
             <div className="absolute inset-0 bg-gradient-to-br from-[#0F2922]/80 via-[#0F2922]/60 to-transparent" />
