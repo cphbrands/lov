@@ -48,7 +48,7 @@ const resources = {
       'product.shipping.info': 'Fri levering 2-5 hverdage',
       'product.shipping.delivery': 'Levering til pakkeshop eller hjemmeadresse',
       'product.return': 'Retur',
-      'product.return.info': 'Udvidet retur for julegaver frem til januar 2026.',
+      'product.return.info': 'Gælder kun for julegaver',
       'product.related': 'Relaterede produkter',
       'product.recentlyViewed': 'Senest sete produkter',
       
