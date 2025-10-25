@@ -831,7 +831,7 @@ const resources = {
       'footer.payment': 'Paiement sécurisé',
       'footer.payment.desc': 'Transactions 100% protégées',
       'footer.return.extended': 'Retour prolongé',
-      'footer.return.desc': 'Cadeaux de Noël jusqu\'en janvier 2026',
+      'footer.return.desc': 'S\'applique uniquement aux cadeaux de Noël',
       'footer.about': 'À propos de Bahne',
       'footer.about.desc': 'Nous ne sommes pas une chaîne. Nous sommes une famille de magasins avec de la place pour les expériences clients, l\'enthousiasme et une sélection créée à partir de ce que nous aimons.',
       'footer.help': 'Aide',
