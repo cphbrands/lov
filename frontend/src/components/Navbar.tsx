@@ -110,20 +110,20 @@ const Navbar = () => {
               <div className="relative hidden md:block">
                 <button
                   onClick={() => setShowLangMenu(!showLangMenu)}
-                  className="flex items-center gap-2 text-zinc-700 hover:text-zinc-900 transition-colors"
+                  className="flex items-center gap-2 text-[#0F2922]/70 hover:text-[#0F2922] transition-colors"
                 >
                   <Globe className="w-5 h-5" />
                   <span className="text-sm">{currentLanguage.flag}</span>
                 </button>
                 
                 {showLangMenu && (
-                  <div className="absolute top-full right-0 mt-2 bg-white border border-zinc-200 rounded-lg shadow-lg py-2 min-w-[150px] z-50">
+                  <div className="absolute top-full right-0 mt-2 bg-white/95 backdrop-blur-md border border-[#0F2922]/10 rounded-sm shadow-xl py-2 min-w-[150px] z-50">
                     {languages.map(lang => (
                       <button
                         key={lang.code}
                         onClick={() => changeLanguage(lang.code)}
-                        className={`w-full px-4 py-2 text-left hover:bg-zinc-50 transition-colors flex items-center gap-2 ${
-                          i18n.language === lang.code ? 'bg-zinc-100' : ''
+                        className={`w-full px-4 py-2 text-left hover:bg-[#0F2922]/5 transition-colors flex items-center gap-2 ${
+                          i18n.language === lang.code ? 'bg-[#0F2922]/10 text-[#0F2922]' : 'text-[#0F2922]/70'
                         }`}
                       >
                         <span>{lang.flag}</span>
@@ -134,27 +134,27 @@ const Navbar = () => {
                 )}
               </div>
 
-              <button className="hidden md:block text-zinc-700 hover:text-zinc-900 transition-colors">
+              <button className="hidden md:block text-[#0F2922]/70 hover:text-[#0F2922] transition-colors">
                 <User className="w-5 h-5" />
               </button>
-              <Link to="/onskeliste" className="relative text-zinc-700 hover:text-zinc-900 transition-colors">
+              <Link to="/onskeliste" className="relative text-[#0F2922]/70 hover:text-[#0F2922] transition-colors">
                 <Heart className="w-5 h-5" />
                 {getWishlistCount() > 0 && (
-                  <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs w-5 h-5 flex items-center justify-center rounded-full">
+                  <span className="absolute -top-2 -right-2 bg-[#D4AF37] text-white text-xs w-5 h-5 flex items-center justify-center rounded-full font-medium">
                     {getWishlistCount()}
                   </span>
                 )}
               </Link>
-              <Link to="/kurv" className="relative text-zinc-700 hover:text-zinc-900 transition-colors">
+              <Link to="/kurv" className="relative text-[#0F2922]/70 hover:text-[#0F2922] transition-colors">
                 <ShoppingCart className="w-5 h-5" />
                 {getCartCount() > 0 && (
-                  <span className="absolute -top-2 -right-2 bg-zinc-900 text-white text-xs w-5 h-5 flex items-center justify-center rounded-full">
+                  <span className="absolute -top-2 -right-2 bg-[#0F2922] text-white text-xs w-5 h-5 flex items-center justify-center rounded-full font-medium">
                     {getCartCount()}
                   </span>
                 )}
               </Link>
               <button
-                className="md:hidden text-zinc-700"
+                className="md:hidden text-[#0F2922]"
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
               >
                 {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -165,7 +165,7 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden border-t border-zinc-200 bg-white">
+          <div className="md:hidden border-t border-[#0F2922]/10 bg-white/95 backdrop-blur-md">
             <div className="container mx-auto px-4 py-4 space-y-4">
               <form onSubmit={handleSearch} className="mb-4">
                 <div className="relative">
@@ -174,38 +174,38 @@ const Navbar = () => {
                     placeholder={t('nav.search')}
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
-                    className="w-full pl-4 pr-10 py-2 border border-zinc-300 rounded-md focus:outline-none focus:ring-2 focus:ring-zinc-900"
+                    className="w-full pl-4 pr-10 py-2 border border-[#0F2922]/20 rounded-sm focus:outline-none focus:ring-2 focus:ring-[#D4AF37]"
                   />
                   <button type="submit" className="absolute right-3 top-1/2 -translate-y-1/2">
-                    <Search className="w-5 h-5 text-zinc-400" />
+                    <Search className="w-5 h-5 text-[#0F2922]/60" />
                   </button>
                 </div>
               </form>
               <Link
                 to="/kategori/julepynt"
-                className="block py-2 text-zinc-700 hover:text-zinc-900"
+                className="block py-2 text-[#0F2922]/80 hover:text-[#0F2922]"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {t('nav.jul')}
               </Link>
               <Link
                 to="/kategori/gaver"
-                className="block py-2 text-zinc-700 hover:text-zinc-900"
+                className="block py-2 text-[#0F2922]/80 hover:text-[#0F2922]"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {t('nav.gaver')}
               </Link>
               <Link
                 to="/spor-din-ordre"
-                className="block py-2 text-zinc-700 hover:text-zinc-900"
+                className="block py-2 text-[#0F2922]/80 hover:text-[#0F2922]"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {t('nav.trackOrder')}
               </Link>
               
               {/* Mobile Language Selector */}
-              <div className="border-t pt-4 mt-4">
-                <p className="text-sm text-zinc-600 mb-2">Sprog / Language</p>
+              <div className="border-t pt-4 mt-4 border-[#0F2922]/10">
+                <p className="text-sm text-[#0F2922]/60 mb-2">Sprog / Language</p>
                 <div className="grid grid-cols-2 gap-2">
                   {languages.map(lang => (
                     <button
@@ -214,10 +214,10 @@ const Navbar = () => {
                         changeLanguage(lang.code);
                         setIsMenuOpen(false);
                       }}
-                      className={`px-3 py-2 text-left rounded border transition-colors flex items-center gap-2 ${
+                      className={`px-3 py-2 text-left rounded-sm border transition-colors flex items-center gap-2 ${
                         i18n.language === lang.code 
-                          ? 'bg-zinc-900 text-white border-zinc-900' 
-                          : 'border-zinc-300 hover:bg-zinc-50'
+                          ? 'bg-[#0F2922] text-white border-[#0F2922]' 
+                          : 'border-[#0F2922]/20 hover:bg-[#0F2922]/5 text-[#0F2922]/80'
                       }`}
                     >
                       <span>{lang.flag}</span>
