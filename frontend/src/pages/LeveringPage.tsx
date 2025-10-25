@@ -22,7 +22,7 @@ const LeveringPage = () => {
               Tilbage
             </Link>
             <h1 className="font-['Playfair_Display'] text-5xl font-bold text-white mb-4">Levering & Forsendelse</h1>
-            <p className="text-white/90 text-lg">Hurtig og sikker levering til hele Danmark</p>
+            <p className="text-white/90 text-lg">Hurtig og sikker levering</p>
           </div>
         </div>
 
