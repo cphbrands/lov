@@ -832,7 +832,7 @@ const resources = {
       'footer.payment.desc': 'Transactions 100% protégées',
       'footer.return.extended': 'Retour prolongé',
       'footer.return.desc': 'S\'applique uniquement aux cadeaux de Noël',
-      'footer.about': 'À propos de Bahne',
+      'footer.about': 'À propos de Christmas House',
       'footer.about.desc': 'Nous ne sommes pas une chaîne. Nous sommes une famille de magasins avec de la place pour les expériences clients, l\'enthousiasme et une sélection créée à partir de ce que nous aimons.',
       'footer.help': 'Aide',
       'footer.shop': 'Boutique',
