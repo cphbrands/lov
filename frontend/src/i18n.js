@@ -251,7 +251,7 @@ const resources = {
       'footer.payment.desc': '100% protected transactions',
       'footer.return.extended': 'Extended returns',
       'footer.return.desc': 'Applies only to Christmas gifts',
-      'footer.copyright': '© 2025 Bahne. All rights reserved.',
+      'footer.copyright': '© 2025 Christmas House. All rights reserved.',
       
       'common.new': 'New',
       'common.loading': 'Loading...',
