@@ -16,7 +16,7 @@ const FaqPage = () => {
     },
     {
       question: 'Hvor lang tid tager leveringen?',
-      answer: 'Vi tilbyder gratis levering på 2-5 hverdage til hele Danmark. Du modtager tracking information via email når din ordre er afsendt.'
+      answer: 'Vi tilbyder gratis levering på 2-5 hverdage. Du modtager tracking information via email når din ordre er afsendt.'
     },
     {
       question: 'Kan jeg returnere mine varer?',
