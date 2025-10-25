@@ -134,13 +134,13 @@ const ReturPage = () => {
               </div>
 
               <div className="bg-white p-6 rounded-sm border border-[#0F2922]/10 shadow-md">
-                <div className="flex items-center gap-3 mb-4">
-                  <AlertCircle className="w-6 h-6 text-[#D4AF37]" />
+                <div className="flex items-start gap-3 mb-4">
+                  <AlertCircle className="w-6 h-6 text-[#D4AF37] flex-shrink-0 mt-1" />
                   <h3 className="font-['Playfair_Display'] text-xl font-bold text-[#0F2922]">
                     Reklamation
                   </h3>
                 </div>
-                <p className="text-[#0F2922]/80 text-sm mb-4 leading-relaxed">
+                <p className="text-[#0F2922]/80 text-sm mb-4 leading-relaxed text-left">
                   Har du modtaget en defekt vare eller oplever problemer? Vi tilbyder <strong>2 års reklamationsret</strong> på alle produkter i henhold til danske forbrugerlove.
                 </p>
                 <Link
