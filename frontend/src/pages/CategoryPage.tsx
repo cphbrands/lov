@@ -243,7 +243,7 @@ const CategoryPageNew = () => {
                 setSelectedFilter('all');
                 setSelectedCollection(null);
               }}
-              className="mt-4 text-zinc-900 underline hover:no-underline"
+              className="mt-4 text-[#0F2922] underline hover:no-underline hover:text-[#D4AF37] transition-colors"
             >
               {t('category.showAll')}
             </button>
