@@ -39,7 +39,7 @@ const LeveringPage = () => {
                   Gratis Levering
                 </h2>
                 <p className="text-[#0F2922]/80 mb-4 leading-relaxed">
-                  Vi tilbyder gratis levering på alle ordrer til hele Danmark. Leveringstid er 2-5 hverdage fra ordreafgivelse.
+                  Vi tilbyder gratis levering på alle ordrer. Leveringstid er 2-5 hverdage fra ordreafgivelse.
                 </p>
                 <div className="flex items-center gap-2 text-[#D4AF37] font-medium">
                   <Clock className="w-5 h-5" />
