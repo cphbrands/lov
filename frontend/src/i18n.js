@@ -415,7 +415,7 @@ const resources = {
       'footer.payment': 'Säker betalning',
       'footer.payment.desc': '100% skyddade transaktioner',
       'footer.return.extended': 'Förlängd retur',
-      'footer.return.desc': 'Julklappar till januari 2026',
+      'footer.return.desc': 'Gäller endast för julklappar',
       'footer.about': 'Om Bahne',
       'footer.about.desc': 'Vi är inte en kedja. Vi är en familj av butiker med plats för kundupplevelser, entusiasm och ett urval skapat utifrån det vi gillar.',
       'footer.help': 'Hjälp',
