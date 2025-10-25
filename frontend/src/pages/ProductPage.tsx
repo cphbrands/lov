@@ -128,7 +128,7 @@ const ProductPage = () => {
         <div className="grid md:grid-cols-2 gap-12">
           {/* Product Images Gallery */}
           <div className="space-y-4">
-            <div className="aspect-square rounded-lg overflow-hidden bg-zinc-100 sticky top-24 relative group">
+            <div className="aspect-square rounded-lg overflow-hidden bg-zinc-100 relative group">
               <img
                 src={productImages[selectedImage]}
                 alt={product.name}
