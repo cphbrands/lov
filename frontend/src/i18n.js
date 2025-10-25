@@ -212,7 +212,7 @@ const resources = {
       'product.shipping.info': 'Free shipping 2-5 business days',
       'product.shipping.delivery': 'Delivery to parcel shop or home address',
       'product.return': 'Returns',
-      'product.return.info': 'Extended returns for Christmas gifts until January 2026.',
+      'product.return.info': 'Applies only to Christmas gifts',
       'product.related': 'Related products',
       'product.recentlyViewed': 'Recently viewed products',
       
