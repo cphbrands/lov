@@ -145,7 +145,7 @@ const Home = () => {
           <Link to="/kategori/julepynt" className="group">
             <div className="relative aspect-[4/5] overflow-hidden rounded-sm mb-4 shadow-lg">
               <img
-                src="https://images.unsplash.com/photo-1573829831297-2038252d19e3?w=600&q=80"
+                src="https://images.unsplash.com/photo-1602521879046-b994fcd56190?w=600&q=85"
                 alt="Jule Pynt"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
               />
