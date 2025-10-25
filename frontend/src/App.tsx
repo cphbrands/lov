@@ -46,6 +46,7 @@ const App = () => (
                     <Breadcrumbs />
                     <Routes>
                       <Route path="/" element={<Home />} />
+                      <Route path="/search" element={<SearchPage />} />
                       <Route path="/kategori/:category" element={<CategoryPage />} />
                       <Route path="/produkt/:id" element={<ProductPage />} />
                       <Route path="/kurv" element={<CartPage />} />
