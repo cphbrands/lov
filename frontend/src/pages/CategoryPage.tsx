@@ -177,25 +177,26 @@ const CategoryPageNew = () => {
       
       <div className="container mx-auto px-4 py-8">
         {/* Enhanced Category Header */}
-        <div className="relative mb-12 rounded-2xl overflow-hidden">
+        <div className="relative mb-12 rounded-sm overflow-hidden shadow-xl">
           <div 
             className="absolute inset-0 bg-cover bg-center"
             style={{
               backgroundImage: category === 'julepynt' 
-                ? 'url(https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=1600)'
+                ? 'url(https://images.pexels.com/photos/754367/pexels-photo-754367.jpeg?w=1600&auto=compress&cs=tinysrgb)'
                 : 'url(https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=1600)',
             }}
           >
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/60 to-black/30" />
           </div>
-          <div className="relative text-center py-16 px-4 text-white">
-            <div className="flex items-center justify-center gap-2 mb-3">
-              <span className="text-sm bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full">
+          <div className="relative text-center py-20 px-4 text-white">
+            <div className="flex items-center justify-center gap-2 mb-4">
+              <span className="text-sm bg-white/20 backdrop-blur-md px-4 py-2 rounded-sm font-medium">
                 {allProducts.length} {t('common.products')}
               </span>
             </div>
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">{title}</h1>
-            <p className="text-xl md:text-2xl max-w-3xl mx-auto opacity-90">{description}</p>
+            <h1 className="font-['Playfair_Display'] text-5xl md:text-7xl font-bold mb-4 drop-shadow-2xl" style={{ textShadow: '0 4px 20px rgba(0,0,0,0.9), 0 2px 10px rgba(0,0,0,0.7)' }}>{title}</h1>
+            <div className="w-24 h-[2px] bg-gradient-to-r from-transparent via-[#D4AF37] to-transparent mx-auto mb-6" />
+            <p className="text-xl md:text-2xl max-w-3xl mx-auto opacity-95 font-light drop-shadow-xl" style={{ textShadow: '0 2px 12px rgba(0,0,0,0.8)' }}>{description}</p>
           </div>
         </div>
 
