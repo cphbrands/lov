@@ -30,22 +30,22 @@ const Footer = () => {
                 <Truck className="w-8 h-8 text-[#0F2922]" />
               </div>
               <div>
-                <h3 className="font-semibold mb-1">{t('footer.shipping.fast')}</h3>
-                <p className="text-sm text-zinc-600">{t('footer.shipping.desc')}</p>
+                <h3 className="font-['Playfair_Display'] text-lg font-semibold mb-1 text-[#0F2922]">{t('footer.shipping.fast')}</h3>
+                <p className="text-sm text-[#0F2922]/70">{t('footer.shipping.desc')}</p>
               </div>
             </div>
             <div className="flex flex-col items-center gap-3">
-              <div className="bg-zinc-100 p-4 rounded-full">
-                <ShieldCheck className="w-8 h-8 text-zinc-900" />
+              <div className="bg-gradient-to-br from-[#0F2922]/10 to-[#D4AF37]/10 p-4 rounded-full">
+                <ShieldCheck className="w-8 h-8 text-[#0F2922]" />
               </div>
               <div>
-                <h3 className="font-semibold mb-1">{t('footer.payment')}</h3>
-                <p className="text-sm text-zinc-600">{t('footer.payment.desc')}</p>
+                <h3 className="font-['Playfair_Display'] text-lg font-semibold mb-1 text-[#0F2922]">{t('footer.payment')}</h3>
+                <p className="text-sm text-[#0F2922]/70">{t('footer.payment.desc')}</p>
               </div>
             </div>
             <div className="flex flex-col items-center gap-3">
-              <div className="bg-zinc-100 p-4 rounded-full">
-                <Clock className="w-8 h-8 text-zinc-900" />
+              <div className="bg-gradient-to-br from-[#0F2922]/10 to-[#D4AF37]/10 p-4 rounded-full">
+                <Clock className="w-8 h-8 text-[#0F2922]" />
               </div>
               <div>
                 <h3 className="font-semibold mb-1">{t('footer.return.extended')}</h3>
