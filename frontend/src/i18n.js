@@ -841,7 +841,7 @@ const resources = {
       'footer.newsletter.desc': 'Recevez des offres exclusives et des nouvelles directement dans votre boîte de réception.',
       'footer.newsletter.placeholder': 'Votre email',
       'footer.newsletter.submit': 'S\'abonner',
-      'footer.copyright': '© 2025 Bahne. Tous droits réservés.',
+      'footer.copyright': '© 2025 Christmas House. Tous droits réservés.',
       
       // Breadcrumbs
       'breadcrumb.home': 'Accueil',
