@@ -323,7 +323,7 @@ const CategoryPageNew = () => {
             <div className="text-center mt-12">
               <button
                 onClick={() => setDisplayCount(prev => prev + 20)}
-                className="bg-zinc-900 text-white px-8 py-3 rounded-md hover:bg-zinc-800 transition-colors"
+                className="bg-gradient-to-r from-[#0F2922] to-[#1a4039] text-white px-8 py-3 rounded-sm hover:from-[#1a4039] hover:to-[#0F2922] transition-all duration-300 font-medium"
               >
                 {t('category.loadMore')} ({filteredCount - displayCount} {t('category.remaining')})
               </button>
