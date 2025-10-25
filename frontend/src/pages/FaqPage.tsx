@@ -20,7 +20,7 @@ const FaqPage = () => {
     },
     {
       question: 'Kan jeg returnere mine varer?',
-      answer: 'Ja, vi har udvidet returret for julegaver. Du kan returnere uåbnede varer inden for 30 dage for fuld refundering.'
+      answer: 'Ja, vi har 14 dages returret på alle ordrer. Du kan returnere uåbnede varer inden for 14 dage for fuld refundering. Udvidet returret gælder kun for julegaver købt i julesæsonen.'
     },
     {
       question: 'Er mine personlige oplysninger sikre?',
