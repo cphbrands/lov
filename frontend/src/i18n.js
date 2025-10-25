@@ -67,7 +67,7 @@ const resources = {
       'cart.processing': 'Behandler...',
       'cart.summary': 'Ordre oversigt',
       'cart.christmasGift': 'Dette er en julegave',
-      'cart.christmasGift.info': 'Udvidet returret gælder frem til januar 2026',
+      'cart.christmasGift.info': 'Gælder kun for julegaver',
       
       // Wishlist
       'wishlist.title': 'Min Ønskeliste',
