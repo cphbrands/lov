@@ -972,7 +972,7 @@ const resources = {
       'footer.payment': 'Pago seguro',
       'footer.payment.desc': 'Transacciones 100% protegidas',
       'footer.return.extended': 'Devolución ampliada',
-      'footer.return.desc': 'Regalos navideños hasta enero 2026',
+      'footer.return.desc': 'Aplica solo para regalos navideños',
       'footer.about': 'Sobre Bahne',
       'footer.about.desc': 'No somos una cadena. Somos una familia de tiendas con espacio para experiencias de clientes, entusiasmo y una selección creada a partir de lo que nos gusta.',
       'footer.help': 'Ayuda',
