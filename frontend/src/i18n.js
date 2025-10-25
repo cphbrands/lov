@@ -688,7 +688,7 @@ const resources = {
       'home.nordic.title': 'Skandinavische Exzellenz - Weltklasse-Qualität',
       'home.nordic.description': 'Handverlesenes nordisches Design und Handwerkskunst. Jedes einzelne Produkt wird sorgfältig ausgewählt, um höchste Qualität, authentische skandinavische Materialien und zeitloses Design zu gewährleisten. Wir repräsentieren das Beste des nordischen Lebensstils.',
       
-      'footer.about': 'Über Bahne',
+      'footer.about': 'Über Christmas House',
       'footer.help': 'Hilfe',
       'footer.shop': 'Shop',
       'footer.newsletter': 'Newsletter',
