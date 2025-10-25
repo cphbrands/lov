@@ -982,7 +982,7 @@ const resources = {
       'footer.newsletter.desc': 'Reciba ofertas exclusivas y noticias directamente en su bandeja de entrada.',
       'footer.newsletter.placeholder': 'Tu email',
       'footer.newsletter.submit': 'Suscribirse',
-      'footer.copyright': '© 2025 Bahne. Todos los derechos reservados.',
+      'footer.copyright': '© 2025 Christmas House. Todos los derechos reservados.',
       
       // Breadcrumbs
       'breadcrumb.home': 'Inicio',
