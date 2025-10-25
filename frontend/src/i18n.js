@@ -425,7 +425,7 @@ const resources = {
       'footer.newsletter.desc': 'Få exklusiva erbjudanden och nyheter direkt i din inkorg.',
       'footer.newsletter.placeholder': 'Din e-post',
       'footer.newsletter.submit': 'Prenumerera',
-      'footer.copyright': '© 2025 Bahne. Alla rättigheter förbehållna.',
+      'footer.copyright': '© 2025 Christmas House. Alla rättigheter förbehållna.',
       
       // Breadcrumbs
       'breadcrumb.home': 'Hem',
