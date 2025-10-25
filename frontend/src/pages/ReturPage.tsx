@@ -141,7 +141,7 @@ const ReturPage = () => {
                   </h3>
                 </div>
                 <p className="text-[#0F2922]/80 text-sm mb-4 leading-relaxed">
-                  Har du modtaget en defekt vare eller oplever problemer? Vi tilbyder 2 års reklamationsret på alle produkter.
+                  Har du modtaget en defekt vare eller oplever problemer? Vi tilbyder <strong>2 års reklamationsret</strong> på alle produkter i henhold til danske forbrugerlove.
                 </p>
                 <Link
                   to="/kontakt"
