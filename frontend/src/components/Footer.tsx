@@ -56,38 +56,42 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="container mx-auto px-4 py-16">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           {/* About */}
           <div>
-            <h3 className="text-lg font-bold mb-4">{t('footer.about')}</h3>
-            <p className="text-zinc-600 text-sm leading-relaxed">
+            <h3 className="font-['Playfair_Display'] text-xl font-bold mb-4 text-[#0F2922]">{t('footer.about')}</h3>
+            <p className="text-[#0F2922]/70 text-sm leading-relaxed">
               {t('footer.about.desc')}
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-bold mb-4">{t('footer.help')}</h3>
-            <ul className="space-y-2 text-sm">
+            <h3 className="font-['Playfair_Display'] text-xl font-bold mb-4 text-[#0F2922]">{t('footer.help')}</h3>
+            <ul className="space-y-3 text-sm">
               <li>
-                <Link to="/faq" className="text-zinc-600 hover:text-zinc-900 transition-colors">
+                <Link to="/faq" className="text-[#0F2922]/70 hover:text-[#0F2922] transition-colors relative group">
                   FAQ
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#D4AF37] group-hover:w-full transition-all duration-300" />
                 </Link>
               </li>
               <li>
-                <Link to="/levering" className="text-zinc-600 hover:text-zinc-900 transition-colors">
+                <Link to="/levering" className="text-[#0F2922]/70 hover:text-[#0F2922] transition-colors relative group">
                   {t('product.shipping')}
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#D4AF37] group-hover:w-full transition-all duration-300" />
                 </Link>
               </li>
               <li>
-                <Link to="/retur" className="text-zinc-600 hover:text-zinc-900 transition-colors">
+                <Link to="/retur" className="text-[#0F2922]/70 hover:text-[#0F2922] transition-colors relative group">
                   {t('product.return')}
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#D4AF37] group-hover:w-full transition-all duration-300" />
                 </Link>
               </li>
               <li>
-                <Link to="/kontakt" className="text-zinc-600 hover:text-zinc-900 transition-colors">
+                <Link to="/kontakt" className="text-[#0F2922]/70 hover:text-[#0F2922] transition-colors relative group">
                   {t('footer.contact')}
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#D4AF37] group-hover:w-full transition-all duration-300" />
                 </Link>
               </li>
             </ul>
@@ -95,21 +99,24 @@ const Footer = () => {
 
           {/* Shop */}
           <div>
-            <h3 className="text-lg font-bold mb-4">{t('footer.shop')}</h3>
-            <ul className="space-y-2 text-sm">
+            <h3 className="font-['Playfair_Display'] text-xl font-bold mb-4 text-[#0F2922]">{t('footer.shop')}</h3>
+            <ul className="space-y-3 text-sm">
               <li>
-                <Link to="/kategori/julepynt" className="text-zinc-600 hover:text-zinc-900 transition-colors">
+                <Link to="/kategori/julepynt" className="text-[#0F2922]/70 hover:text-[#0F2922] transition-colors relative group">
                   {t('nav.jul')}
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#D4AF37] group-hover:w-full transition-all duration-300" />
                 </Link>
               </li>
               <li>
-                <Link to="/kategori/gaver" className="text-zinc-600 hover:text-zinc-900 transition-colors">
+                <Link to="/kategori/gaver" className="text-[#0F2922]/70 hover:text-[#0F2922] transition-colors relative group">
                   {t('nav.gaver')}
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#D4AF37] group-hover:w-full transition-all duration-300" />
                 </Link>
               </li>
               <li>
-                <Link to="/spor-din-ordre" className="text-zinc-600 hover:text-zinc-900 transition-colors">
+                <Link to="/spor-din-ordre" className="text-[#0F2922]/70 hover:text-[#0F2922] transition-colors relative group">
                   {t('nav.trackOrder')}
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#D4AF37] group-hover:w-full transition-all duration-300" />
                 </Link>
               </li>
             </ul>
@@ -117,7 +124,7 @@ const Footer = () => {
 
           {/* Newsletter */}
           <div>
-            <h3 className="text-lg font-bold mb-4">{t('footer.newsletter')}</h3>
+            <h3 className="font-['Playfair_Display'] text-xl font-bold mb-4 text-[#0F2922]">{t('footer.newsletter')}</h3>
             <p className="text-zinc-600 text-sm mb-4">
               {t('footer.newsletter.desc')}
             </p>
