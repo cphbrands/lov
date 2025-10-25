@@ -699,7 +699,7 @@ const resources = {
       'footer.payment': 'Sichere Zahlung',
       'footer.payment.desc': '100% geschützte Transaktionen',
       'footer.return.extended': 'Verlängerte Rückgabe',
-      'footer.return.desc': 'Weihnachtsgeschenke bis Januar 2026',
+      'footer.return.desc': 'Gilt nur für Weihnachtsgeschenke',
       'footer.copyright': '© 2025 Bahne. Alle Rechte vorbehalten.',
       
       // Breadcrumbs
