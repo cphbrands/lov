@@ -20,14 +20,14 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-zinc-50 border-t border-zinc-200 mt-16">
+    <footer className="bg-gradient-to-b from-[#faf8f5] to-[#f5f3ef] border-t border-[#0F2922]/10 mt-16">
       {/* Trust Badges */}
-      <div className="bg-white border-b border-zinc-200">
-        <div className="container mx-auto px-4 py-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+      <div className="bg-white/50 backdrop-blur-sm border-b border-[#0F2922]/10">
+        <div className="container mx-auto px-4 py-12">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div className="flex flex-col items-center gap-3">
-              <div className="bg-zinc-100 p-4 rounded-full">
-                <Truck className="w-8 h-8 text-zinc-900" />
+              <div className="bg-gradient-to-br from-[#0F2922]/10 to-[#D4AF37]/10 p-4 rounded-full">
+                <Truck className="w-8 h-8 text-[#0F2922]" />
               </div>
               <div>
                 <h3 className="font-semibold mb-1">{t('footer.shipping.fast')}</h3>
