@@ -294,7 +294,7 @@ const CategoryPageNew = () => {
               
               <div className="space-y-2">
                 {product.isNew && (
-                  <span className="inline-block bg-zinc-900 text-white text-xs px-2 py-1 rounded">
+                  <span className="inline-block bg-gradient-to-r from-[#0F2922] to-[#1a4039] text-white text-xs px-3 py-1 rounded-sm font-medium">
                     {t('common.new')}
                   </span>
                 )}
