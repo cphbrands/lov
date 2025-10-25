@@ -22,6 +22,10 @@ import ProductPage from "./pages/ProductPage";
 import CartPage from "./pages/CartPage";
 import WishlistPage from "./pages/WishlistPage";
 import TrackOrderPage from "./pages/TrackOrderPage";
+import FaqPage from "./pages/FaqPage";
+import LeveringPage from "./pages/LeveringPage";
+import ReturPage from "./pages/ReturPage";
+import KontaktPage from "./pages/KontaktPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
