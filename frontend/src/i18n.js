@@ -90,7 +90,7 @@ const resources = {
       'footer.payment.desc': '100% beskyttede transaktioner',
       'footer.return.extended': 'Udvidet retur',
       'footer.return.desc': 'Gælder kun for julegaver',
-      'footer.copyright': '© 2025 Bahne. Alle rettigheder forbeholdes.',
+      'footer.copyright': '© 2025 Christmas House. Alle rettigheder forbeholdes.',
       
       // Common
       'common.new': 'Nyhed',
