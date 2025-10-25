@@ -120,7 +120,7 @@ const ReturPage = () => {
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-[#D4AF37] mt-1">✓</span>
-                    <span>Returret gælder i 30 dage fra modtagelse</span>
+                    <span>Returret gælder i 14 dage fra modtagelse</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-[#D4AF37] mt-1">✓</span>
