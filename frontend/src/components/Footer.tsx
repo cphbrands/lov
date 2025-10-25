@@ -125,7 +125,7 @@ const Footer = () => {
           {/* Newsletter */}
           <div>
             <h3 className="font-['Playfair_Display'] text-xl font-bold mb-4 text-[#0F2922]">{t('footer.newsletter')}</h3>
-            <p className="text-zinc-600 text-sm mb-4">
+            <p className="text-[#0F2922]/70 text-sm mb-4">
               {t('footer.newsletter.desc')}
             </p>
             <form onSubmit={handleNewsletterSubmit} className="space-y-3">
@@ -135,28 +135,28 @@ const Footer = () => {
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder={t('footer.newsletter.placeholder')}
                 required
-                className="w-full px-4 py-2 border border-zinc-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-zinc-900"
+                className="w-full px-4 py-3 border border-[#0F2922]/20 rounded-sm text-sm focus:outline-none focus:ring-2 focus:ring-[#D4AF37] bg-white/50"
               />
               <button
                 type="submit"
-                className="w-full bg-zinc-900 text-white px-4 py-2 rounded-md hover:bg-zinc-800 transition-colors flex items-center justify-center gap-2"
+                className="w-full bg-gradient-to-r from-[#0F2922] to-[#1a4039] text-white px-4 py-3 rounded-sm hover:from-[#1a4039] hover:to-[#0F2922] transition-all duration-300 flex items-center justify-center gap-2 font-medium"
               >
                 <Mail className="w-4 h-4" />
                 {t('footer.newsletter.submit')}
               </button>
             </form>
             <div className="flex gap-4 mt-6">
-              <a href="#" className="text-zinc-600 hover:text-zinc-900 transition-colors">
+              <a href="#" className="text-[#0F2922]/60 hover:text-[#D4AF37] transition-colors">
                 <Facebook className="w-5 h-5" />
               </a>
-              <a href="#" className="text-zinc-600 hover:text-zinc-900 transition-colors">
+              <a href="#" className="text-[#0F2922]/60 hover:text-[#D4AF37] transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>
             </div>
           </div>
         </div>
 
-        <div className="border-t border-zinc-200 mt-12 pt-8 text-center text-sm text-zinc-600">
+        <div className="border-t border-[#0F2922]/10 mt-12 pt-8 text-center text-sm text-[#0F2922]/60">
           <p>{t('footer.copyright')}</p>
         </div>
       </div>
