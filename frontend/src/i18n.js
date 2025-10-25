@@ -236,7 +236,7 @@ const resources = {
       'wishlist.empty': 'Your wishlist is empty',
       'wishlist.empty.desc': 'You have no products in your wishlist. Add your favorites!',
       
-      'footer.about': 'About Bahne',
+      'footer.about': 'About Christmas House',
       'footer.about.desc': 'We are not a chain. We are a family of stores with room for customer experiences, enthusiasm and a selection created from what we like.',
       'footer.help': 'Help',
       'footer.shop': 'Shop',
