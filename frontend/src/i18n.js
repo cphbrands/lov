@@ -89,7 +89,7 @@ const resources = {
       'footer.payment': 'Sikker betaling',
       'footer.payment.desc': '100% beskyttede transaktioner',
       'footer.return.extended': 'Udvidet retur',
-      'footer.return.desc': 'Julegaver frem til januar 2026',
+      'footer.return.desc': 'Gælder kun for julegaver',
       'footer.copyright': '© 2025 Bahne. Alle rettigheder forbeholdes.',
       
       // Common
