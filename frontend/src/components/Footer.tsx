@@ -48,8 +48,8 @@ const Footer = () => {
                 <Clock className="w-8 h-8 text-[#0F2922]" />
               </div>
               <div>
-                <h3 className="font-semibold mb-1">{t('footer.return.extended')}</h3>
-                <p className="text-sm text-zinc-600">{t('footer.return.desc')}</p>
+                <h3 className="font-['Playfair_Display'] text-lg font-semibold mb-1 text-[#0F2922]">{t('footer.return.extended')}</h3>
+                <p className="text-sm text-[#0F2922]/70">{t('footer.return.desc')}</p>
               </div>
             </div>
           </div>
